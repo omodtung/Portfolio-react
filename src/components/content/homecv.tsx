@@ -1,4 +1,6 @@
 import {TypeAnimation} from "react-type-animation";
+import  aboutDev from '../../assets/img/about/macos.jpg'
+import about from "./about.tsx";
 const  Homecv = ()=>
 {
 return <>
@@ -16,7 +18,7 @@ return <>
                 <div className="content hero">
                     <div className="inner_content">
                         <div className="image_wrap">
-                            <img src="img/hero/img.jpg" alt="hero"/>
+                            <img src={aboutDev} alt="hero"/>
                         </div>
                         <div className="name_holder">
                             <h3>

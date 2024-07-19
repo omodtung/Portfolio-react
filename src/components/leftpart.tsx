@@ -1,10 +1,12 @@
+import  desktoplogo from '../../src/assets/img/logo/typeScript2.png'
+
 const LeftPart = () => {
     return <>
         <div className="arlo_tm_leftpart_wrap">
             <div className="leftpart_inner">
                 <div className="logo_wrap">
                     <a href="#">
-                        <img src="img/logo/desktop-logo.png" alt="desktop-logo"/>
+                        <img src={desktoplogo} alt="desktop-logo"/>
                     </a>
                 </div>
                 <div className="menu_list_wrap">
@@ -16,17 +18,17 @@ const LeftPart = () => {
                             <a href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="#services">Projects</a>
                         </li>
                         <li>
                             <a href="#portfolio">Portfolio</a>
                         </li>
-                        <li>
-                            <a href="#news">News</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
+                        {/*<li>*/}
+                        {/*    <a href="#news">News</a>*/}
+                        {/*</li>*/}
+                        {/*<li>*/}
+                        {/*    <a href="#contact">Contact</a>*/}
+                        {/*</li>*/}
                     </ul>
                 </div>
                 <div className="leftpart_bottom">
