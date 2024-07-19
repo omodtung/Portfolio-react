@@ -1,2 +1,2 @@
-# ecommerce-react
+# Portfolio-React
  React , TypeScript
