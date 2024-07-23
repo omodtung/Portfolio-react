@@ -2,7 +2,9 @@ import Preloader from "../components/preloader";
 import LeftPart from "../components/leftpart.tsx";
 import Rightpart from "../components/rightpart.tsx";
 import { FloatButton } from "antd";
+import { useState } from "react";
 const Portfolio = () => {
+    const [hideLeftPart ,setHideLeftPart] = useState<boolean>(false);
   return (
     <div className="arlo_tm_wrapper_all">
       <div id="arlo_tm_popup_blog">
@@ -64,7 +66,12 @@ const Portfolio = () => {
       {/* <!--   CONTENT --> */}
       <div className="arlo_tm_content">
         {/* <!--   LEFTPART --> */}
-        <LeftPart></LeftPart>
+        <LeftPart
+
+
+hideLeftPart = {hideLeftPart}
+setHideLeftPart={setHideLeftPart}
+        ></LeftPart>
         {/* <!--   /LEFTPART --> */}
 
         {/* <!--   RIGHTPART --> */}

@@ -3,10 +3,14 @@ import About from "./content/about.tsx";
 import Skill from "./content/skill.tsx";
 import Projects from "./content/Projects.tsx";
 import Contact from "./content/contact.tsx";
-const RightPart = () => {
+interface IProps {
+    hideLeftPart?: boolean;
+    setHideLeftPart?: (value: boolean) => void;
+  }
+const RightPart = (props :IProps) => {
     return <>
 
-        <div className="arlo_tm_rightpart">
+        <div className={  props.hideLeftPart === true?"arlo_tm_rightpart opened":"arlo_tm_rightpart"}>
             <div className="rightpart_inner">
                <Homecv></Homecv>
 
