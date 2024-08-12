@@ -35,14 +35,11 @@ const About = () => {
                       <TypeAnimation
                         sequence={[
                           // Same substring at the start will only be typed out once, initially
-                          "React Developer",
+                          " I'm a Frontend Developer",
                           1000, // wait 1s before replacing "Mice" with "Hamsters"
-                          "Nodejs Backend Developer",
+                          "I'm a Backend Developer",
                           1000,
-                          "Next.js Developer",
-                          1000,
-                          "Java Backend Developer",
-                          1000,
+                       
                         ]}
                         wrapper="span"
                         speed={50}

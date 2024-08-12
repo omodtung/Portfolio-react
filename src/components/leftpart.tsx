@@ -35,7 +35,7 @@ const LeftPart = (props: IProps) => {
                 <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
               </li>
               {/*<li>*/}
               {/*    <a href="#news">News</a>*/}

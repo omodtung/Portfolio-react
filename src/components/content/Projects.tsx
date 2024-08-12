@@ -83,9 +83,9 @@ const Project = () => {
   ];
   return (
     <>
-      <Button type="primary" onClick={showModal}>
+      {/* <Button type="primary" onClick={showModal}>
         Open Modal
-      </Button>
+      </Button> */}
       <Modal
         title={
           dataDetail && dataDetail.title ? `Du An ${dataDetail.title}` : ""
@@ -121,7 +121,7 @@ const Project = () => {
 }
       </Modal>
 
-      <div className="arlo_tm_section" id="services">
+      <div className="arlo_tm_section" id="projects">
         <div className="arlo_tm_services_wrap">
           <div className="container">
             <div className="arlo_tm_title_holder">
