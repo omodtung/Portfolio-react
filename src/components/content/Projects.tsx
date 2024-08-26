@@ -6,17 +6,36 @@ import { FaFacebook } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { jsx } from "react/jsx-runtime";
+import { FaLaravel } from "react-icons/fa";
+import { FaPhp } from "react-icons/fa";
+import { SiSpringboot } from "react-icons/si";
+import { SiHibernate } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { FaJs } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { BiPlus } from "react-icons/bi";
+import { FaBootstrap } from "react-icons/fa";
+import { VscBlank } from "react-icons/vsc";
+import { FaCss3 } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
+// import { RiNextjsFill } from "react-icons/ri";
+// import { RiNextjsLine } from "react-icons/ri";
+// ri/RiNextjsLine
 interface IProject {
-  image: JSX.Element;
+  // image: JSX.Element;
+  image: JSX.Element[];
   title: string;
 
   shortDescription: string;
   detail: {
     description: string;
     Frontend: string;
+    Backend: string;
+    database: string;
     member: number;
     role: string;
     demo: string; //link video Or github or Deploy
+    github: string;
   };
 }
 const Project = () => {
@@ -41,45 +60,195 @@ const Project = () => {
   const DataProject: IProject[] = [
     {
       image: <SiNestjs size={50} color={"#ff1100"} />,
-      title: "Nest Js Backend IT Viec",
+      title: " Backend Job Recruitment ",
       shortDescription:
-        " Web design is a similar process of creation, with the intention of presenting the content on   electronic pages ... ",
+        " backend written in NestJs framework , communicates information with user interface in recruitment page ,connect to mongodb database",
       detail: {
-        description: "Dự án NestJs Clone IT Viec",
-        Frontend: "  Sử  Dụng React phía người dùng ",
-        member: 2,
-        role: "",
-        demo: "", //link video Or github or Deploy
+        description:
+          "The project copies current recruitment sites such as IT Viec, TopDev...",
+        Frontend: "using React on the frontend",
+        Backend: "NestJs framework And TypeScript",
+        database: "mongodb",
+        member: 1,
+        role: "Backend Dev",
+        github: "https://github.com/omodtung/job-recruitment.git", //link video Or github or Deploy
       },
     },
+    {
+      image: <FaLaravel size={50} color={"#ff1100"} />,
+      title: " Furniture shop ",
+      shortDescription:
+        " backend written in NestJs framework , communicates information with user interface in recruitment page ,connect to mongodb database",
+      detail: {
+        description:
+          "The project copies current recruitment sites such as IT Viec, TopDev...",
+        Frontend: "using React on the frontend",
+        Backend: "NestJs framework And TypeScript",
+        database: "mongodb",
+        member: 1,
+        role: "Backend Dev",
+        github: "https://github.com/omodtung/job-recruitment.git", //link video Or github or Deploy
+      },
+    },
+    {
+      image: [
+       <FaBootstrap  size={50} color={"#b51fb5"}/>,
 
+       <VscBlank  size={30}/>,
+       <FaPhp size={50} color={"#2b00ff"} />, 
+    ],
+      title: " Backend Job Recruitment ",
+      shortDescription:
+        " backend written in NestJs framework , communicates information with user interface in recruitment page ,connect to mongodb database",
+      detail: {
+        description:
+          "The project copies current recruitment sites such as IT Viec, TopDev...",
+        Frontend: "using React on the frontend",
+        Backend: "NestJs framework And TypeScript",
+        database: "mongodb",
+        member: 1,
+        role: "Backend Dev",
+        github: "https://github.com/omodtung/job-recruitment.git", //link video Or github or Deploy
+      },
+    },
+    {
+      image: <SiNestjs size={50} color={"#ff1100"} />,
+      title: " Backend Blogs ",
+      shortDescription:
+        " backend written in NestJs framework , communicates information with user interface in Blog  Admin page and Client Page ,connect to mysql database",
+      detail: {
+        description:
+          "backend handles communication with DashBoard admin interface in managing posts and users and Client Site reading posts",
+
+        Backend: "NestJs framework And TypeScript",
+        database: "MysqL",
+        member: 1,
+        role: "Backend Dev",
+        github: "https://github.com/omodtung/nestjs_BE_Blogs.git", //link video Or github or Deploy
+      },
+    },
+    {
+      image: <SiSpringboot size={50} color={"#40ff00"} />,
+      title: " Backend Blogs ",
+      shortDescription:
+        " backend written in NestJs framework , communicates information with user interface in Blog  Admin page and Client Page ,connect to mysql database",
+      detail: {
+        description:
+          "backend handles communication with DashBoard admin interface in managing posts and users and Client Site reading posts",
+
+        Backend: "NestJs framework And TypeScript",
+        database: "MysqL",
+        member: 1,
+        role: "Backend Dev",
+        github: "https://github.com/omodtung/nestjs_BE_Blogs.git", //link video Or github or Deploy
+      },
+    },
+    {
+      image: <SiHibernate size={50} color={"#40ff00"} />,
+      title: " Backend Blogs ",
+      shortDescription:
+        " backend written in NestJs framework , communicates information with user interface in Blog  Admin page and Client Page ,connect to mysql database",
+      detail: {
+        description:
+          "backend handles communication with DashBoard admin interface in managing posts and users and Client Site reading posts",
+
+        Backend: "NestJs framework And TypeScript",
+        database: "MysqL",
+        member: 1,
+        role: "Backend Dev",
+        github: "https://github.com/omodtung/nestjs_BE_Blogs.git", //link video Or github or Deploy
+      },
+    },
     {
       image: <FaReact size={50} color={"#7BEDFA"} />,
-      title: "Photography",
+      title: "Admin Blog Site",
       shortDescription:
-        " Web design is a similar process of creation, with the intention of presenting the content on   electronic pages ... ",
+        " Admin interface page for admin to add, delete, edit posts as well as manage users ",
       detail: {
-        description: "",
-        Frontend: "",
-        member: 3,
-        role: "",
+        description: "Interface page helps admin manage posts and users",
+        Frontend: "React",
+
+        member: 1,
+        role: "Frontend Dev",
         demo: "", //link video Or github or Deploy
+        github: "https://github.com/omodtung/admin_site_blog_fe.git",
       },
     },
+    
 
     {
-      image: <FaReact size={50} color={"#7BEDFA"} />,
-      title: "Photography",
+      image: [
+        <FaReact size={50} color={"#7BEDFA"} />,
+      ],
+      title: "Client blog Site",
       shortDescription:
-        " Web design is a similar process of creation, with the intention of presenting the content on   electronic pages ... ",
+        " front-end page that doesn't require a login for users to interact with posts ... ",
       detail: {
-        description: "",
-        Frontend: "",
-        member: 4,
-        role: "",
+        description: "front-end page for users to interact with and read posts",
+        Frontend: "Next.js",
+        member: 1,
+        role: "Frontend Dev",
         demo: "", //link video Or github or Deploy
+        github: "https://github.com/omodtung/Client_site_Blog.git",
       },
     },
+    {
+      image: [
+        <FaReact size={50} color={"#7BEDFA"} />,
+        // <FaCss3 size={50} color={"#ff1100"} />,
+      ],
+      title: "Porfolio Site",
+      shortDescription:
+        " front-end page that doesn't require a login for users to interact with posts ... ",
+      detail: {
+        description: "front-end page for users to interact with and read posts",
+        Frontend: "Next.js",
+        member: 1,
+        role: "Frontend Dev",
+        demo: "", //link video Or github or Deploy
+        github: "https://github.com/omodtung/Client_site_Blog.git",
+      },
+    },
+    {
+      image: [
+        <FaJava  size={50} color={"#c9c938"}/>
+        // <FaCss3 size={50} color={"#ff1100"} />,
+      ],
+      title: "Client blog Site",
+      shortDescription:
+        " front-end page that doesn't require a login for users to interact with posts ... ",
+      detail: {
+        description: "front-end page for users to interact with and read posts",
+        Frontend: "Next.js",
+        member: 1,
+        role: "Frontend Dev",
+        demo: "", //link video Or github or Deploy
+        github: "https://github.com/omodtung/Client_site_Blog.git",
+      },
+    },
+    
+
+    {
+      image: [
+        <FaHtml5 size={50} color={"#ff1100"} />,
+        <FaCss3 size={50} color={"#2225d6"} />,
+        <FaJs size={50} color = {"#d1d43b"}/>  ,
+        <FaBootstrap   size={50} color={"#b51fb5"}/>
+      ],
+
+      title: "Client blog Site",
+      shortDescription:
+        " front-end page that doesn't require a login for users to interact with posts ... ",
+      detail: {
+        description: "front-end page for users to interact with and read posts",
+        Frontend: "Next.js",
+        member: 1,
+        role: "Frontend Dev",
+        demo: "", //link video Or github or Deploy
+        github: "https://github.com/omodtung/Client_site_Blog.git",
+      },
+    },
+    
   ];
   return (
     <>
@@ -88,7 +257,7 @@ const Project = () => {
       </Button> */}
       <Modal
         title={
-          dataDetail && dataDetail.title ? `Du An ${dataDetail.title}` : ""
+          dataDetail && dataDetail.title ? `Project : ${dataDetail.title}` : ""
         }
         open={isModalOpen}
         onOk={handleOk}
@@ -96,29 +265,35 @@ const Project = () => {
         footer={null}
         maskClosable={false}
       >
-        { 
-        
-        
-        dataDetail &&
-        
+        {dataDetail && (
+          <ul>
+            <li>Miêu Tả :{dataDetail.detail.description}</li>
+            {dataDetail.detail.Frontend && (
+              <li> Frontend :{dataDetail.detail.Frontend}</li>
+            )}
 
-        <ul>
-          <li>Miêu Tả :{dataDetail.detail.description}</li>
-          <li> Frontend :</li>
-          <li>Backend :</li>
-          <li>Số Lượng :</li>
-          <li>Vai Trò: Backend Dev</li>
-          <li>
-            Demo:
-            <a href=""> Link</a>
-          </li>
-          <li>
-            {" "}
-            Github:
-            <a href=""> Link</a>
-          </li>
-        </ul>
-}
+            {dataDetail.detail.Backend && (
+              <li>Backend: {dataDetail.detail.Backend}</li>
+            )}
+            {dataDetail.detail.database && (
+              <li>Database :{dataDetail.detail.database}</li>
+            )}
+            <li>Số Lượng :{dataDetail.detail.member}</li>
+            <li>Vai Trò: {dataDetail.detail.role}</li>
+
+            {dataDetail.detail.demo && (
+              <li>
+                Demo:
+                <a href=""> Link</a>
+              </li>
+            )}
+            <li>
+              {" "}
+              Github:
+              <a href={dataDetail.detail.github}> Link</a>
+            </li>
+          </ul>
+        )}
       </Modal>
 
       <div className="arlo_tm_section" id="projects">
