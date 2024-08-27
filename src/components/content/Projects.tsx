@@ -313,8 +313,8 @@ const Project = () => {
         <div className="arlo_tm_services_wrap">
           <div className="container">
             <div className="arlo_tm_title_holder">
-              <h3>Amazing Services</h3>
-              <span>Meet our amazing services</span>
+              <h3>Amazing Projects</h3>
+              <span>Meet  Projects</span>
             </div>
             <div className="list_wrap" style={{    flex: '1',padding: '10px', display: 'flex'
  }} >

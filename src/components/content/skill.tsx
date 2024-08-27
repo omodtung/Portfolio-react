@@ -7,12 +7,15 @@ const Skills = () => {
             <div className="inner_wrap">
               <div className="leftbox">
                 <div className="arlo_tm_mini_title_holder">
-                  <h4>Kỹ Năng Frontend</h4>
+                  <h4> 
+                    <strong>
+                    Frontend
+                    </strong>
+                   </h4>
                 </div>
                 <p>
                   <p>
-                    Kỹ Năng Front-end Tôi làm học được thông qua các dự Án Cá
-                    nhân và Đồ Án Môn học , kinh nghiệm lập trình Frontend ,
+                  I have experience working with ReactJS (NextJS, Hook), Bootstrap, Axios, HTML , CSS, JS, Blade, Thymeleaf, and other technologies.
                     <br></br>
                     <br />
                   </p>
@@ -34,9 +37,9 @@ const Skills = () => {
                       <span>
                         <span className="label">
                           React JS -{" "}
-                          <span className="experience">FrameWork</span>
+                          <span className="experience">framework</span>
                         </span>
-                        <span className="number">TypeScript</span>
+                        <span className="number">TypeScript , JavaScript</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
                         <div className="arlo_tm_bar_wrap">
@@ -52,9 +55,9 @@ const Skills = () => {
                       <span>
                         <span className="label">
                           Boostrap -{" "}
-                          <span className="experience">FrameWork</span>
+                          <span className="experience">framework</span>
                         </span>
-                        <span className="number">PHP</span>
+                        <span className="number"></span>
                       </span>
                       <div className="arlo_tm_bar_bg">
                         <div className="arlo_tm_bar_wrap">
@@ -69,10 +72,10 @@ const Skills = () => {
                     >
                       <span>
                         <span className="label">
-                          NextJS - <span className="experience">FrameWork</span>
+                          NextJS - <span className="experience">framework</span>
                         </span>
                         <span className="number">
-                          TypeScript and JavaScript
+                          TypeScript
                         </span>
                       </span>
                       <div className="arlo_tm_bar_bg">
@@ -88,11 +91,11 @@ const Skills = () => {
                     >
                       <span>
                         <span className="label">
-                          Tailwind
-                          <span className="experience">FrameWork</span>
+                        Blade Templates 
+                          <span className="experience"> </span>
                         </span>
                         <span className="number">
-                          TypeScript and JavaScript
+                        templating engine Laravel
                         </span>
                       </span>
                       <div className="arlo_tm_bar_bg">
@@ -110,7 +113,7 @@ const Skills = () => {
                         <span className="label">
                           Ant Design 5.0 -{" "}
                           <span className="experience">
-                            FrameWork React UI library
+                            framework React UI library
                           </span>
                         </span>
                         <span className="number"> JavaScript</span>
@@ -153,13 +156,16 @@ const Skills = () => {
                     >
                       <span>
                         <span className="label">
-                          HTML , CSS , JavaScript{" "}
+                        Thymeleaf{" "}
                           <span className="experience"></span>
+                          <span className="number">
+                          Java template engine
+                        </span>
                         </span>
                       </span>
                       <div className="arlo_tm_bar_bg">
                         <div className="arlo_tm_bar_wrap">
-                          <div className="arlo_tm_bar"></div>
+                          <div className="arlo_tm_bar">Java template engine </div>
                         </div>
                       </div>
                     </div>
@@ -179,14 +185,13 @@ const Skills = () => {
             <div className="inner_wrap">
               <div className="leftbox">
                 <div className="arlo_tm_mini_title_holder">
-                  <h4>Kỹ Năng Backend</h4>
+                  <h4> <strong>
+                  Backend
+                    
+                    </strong> </h4>
                 </div>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since. Lorem Ipsum has been the
-                  industry. Lorem Ipsum has been the industry's standard dummy
-                  text since. Lorem Ipsum is simply.
+                I have experience working with Node.JS, TypeScript, ExpressJS, NestJS, MongoDB, MySQL, Laravel, SpringBoot, PHP and other technologies.
                 </p>
               </div>
               <div className="rightbox">
@@ -205,7 +210,7 @@ const Skills = () => {
                       <span>
                         <span className="label">
                           Nest JS -{" "}
-                          <span className="experience">FrameWork</span>
+                          <span className="experience">framework</span>
                         </span>
                         <span className="number">TypeScript</span>
                       </span>
@@ -223,7 +228,7 @@ const Skills = () => {
                       <span>
                         <span className="label">
                           Laravel -{" "}
-                          <span className="experience">FrameWork</span>
+                          <span className="experience">framework</span>
                         </span>
                         <span className="number">PHP</span>
                       </span>
@@ -240,11 +245,11 @@ const Skills = () => {
                     >
                       <span>
                         <span className="label">
-                          React JS -{" "}
-                          <span className="experience">FrameWork</span>
+                          SpringBoot -{" "}
+                          <span className="experience">framework</span>
                         </span>
                         <span className="number">
-                          TypeScript and JavaScript
+                        Java
                         </span>
                       </span>
                       <div className="arlo_tm_bar_bg">
@@ -260,12 +265,48 @@ const Skills = () => {
                     >
                       <span>
                         <span className="label">
-                          Next JS -{" "}
-                          <span className="experience">FrameWork</span>
+                          PHP 
+                          <span className="experience"></span>
                         </span>
                         <span className="number">
-                          TypeScript and JavaScript
+                          
                         </span>
+                      </span>
+                      <div className="arlo_tm_bar_bg">
+                        <div className="arlo_tm_bar_wrap">
+                          <div className="arlo_tm_bar"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="arlo_tm_progress"
+                      data-value="95"
+                      data-color="#000"
+                    >
+                      <span>
+                        <span className="label">
+                          MySQL
+                          <span className="experience"></span>
+                        </span>
+                        <span className="number"> Database</span>
+                      </span>
+                      <div className="arlo_tm_bar_bg">
+                        <div className="arlo_tm_bar_wrap">
+                          <div className="arlo_tm_bar"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="arlo_tm_progress"
+                      data-value="95"
+                      data-color="#000"
+                    >
+                      <span>
+                        <span className="label">
+                        MongoDB
+                          <span className="experience"></span>
+                        </span>
+                        <span className="number"> Database</span>
                       </span>
                       <div className="arlo_tm_bar_bg">
                         <div className="arlo_tm_bar_wrap">
@@ -281,7 +322,7 @@ const Skills = () => {
                       <span>
                         <span className="label">
                           Express JS -{" "}
-                          <span className="experience">FrameWork</span>
+                          <span className="experience">framework</span>
                         </span>
                         <span className="number"> JavaScript</span>
                       </span>
@@ -297,54 +338,11 @@ const Skills = () => {
                       data-value="85"
                       data-color="#000"
                     >
-                      <span>
-                        <span className="label">
-                          SpringBoot -{" "}
-                          <span className="experience">FrameWork</span>
-                        </span>
-                        <span className="number">Java</span>
-                      </span>
-                      <div className="arlo_tm_bar_bg">
-                        <div className="arlo_tm_bar_wrap">
-                          <div className="arlo_tm_bar"></div>
-                        </div>
-                      </div>
+                    
+                   
                     </div>
-                    <div
-                      className="arlo_tm_progress"
-                      data-value="75"
-                      data-color="#000"
-                    >
-                      <span>
-                        <span className="label">
-                          HTML , CSS , JavaScript{" "}
-                          <span className="experience"></span>
-                        </span>
-                      </span>
-                      <div className="arlo_tm_bar_bg">
-                        <div className="arlo_tm_bar_wrap">
-                          <div className="arlo_tm_bar"></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="arlo_tm_progress"
-                      data-value="90"
-                      data-color="#000"
-                    >
-                      <span>
-                        <span className="label">
-                          Boostraps{" "}
-                          <span className="experience">{/*FrameWork*/}</span>
-                        </span>
-                        <span className="number">framework CSS</span>
-                      </span>
-                      <div className="arlo_tm_bar_bg">
-                        <div className="arlo_tm_bar_wrap">
-                          <div className="arlo_tm_bar"></div>
-                        </div>
-                      </div>
-                    </div>
+                
+                  
                   </div>
                 </div>
               </div>

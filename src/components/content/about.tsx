@@ -50,13 +50,11 @@ const About = () => {
                   </div>
                   <div className="definition">
                     <p>
-                      Hi! Tôi tên là <strong> Thế Tùng </strong>. Tôi làm
-                      Engineer, tôi có kinh nghiệm với lập trình Backend và
-                      Frontend như là một Software Development Engineer,
-                      <br></br>
+                    Hi there, welcome to look at my <strong> profile !</strong>.I am interested in working with Backend and Frontend
+                   
                       <br/>
-
-                      Tôi có thể  làm việc với TypeScript , Java , JavaScript ,PHP 
+                      I'm passionate about creating seamless user experiences and believe that simplifying code leads to more agile applications.
+                      I can work with TypeScript , Java , JavaScript ,PHP
                       
                     </p>
                   </div>
@@ -69,13 +67,13 @@ const About = () => {
                       </li>
                       <li>
                         <span>
-                          <label>Giới Tính :</label> {""}Nam
+                          <label>Gender :</label> {""} male
 
                         </span>
                       </li>
                       <li>
                         <span>
-                          <label>City:</label> Thành Phố  HCM, Việt Nam
+                          <label>City:</label>  Ho Chi Minh City, Việt Nam
                         </span>
                       </li>
                       <li>
@@ -88,25 +86,27 @@ const About = () => {
                       </li>
                       <li>
                         <span>
-                          <label>Study:</label> Đại Học Sài Gòn
+                        <a href="https://www.sgu.edu.vn/">
+                          <label>Study:</label>Sai Gon University
+                          </a>
                         </span>
                       </li>
-                      <li>
+                      {/* <li>
                         <span>
                           <label>Bằng Cấp:</label> Kỹ Sư Công Nghệ Thông Tin
                         </span>
-                      </li>
+                      </li> */}
                       <li>
                         <span>
-                          <label>Chuyên Ngành:</label> Kỹ Thuật Phần Mềm
+                          <label>Major:</label>Software Engineering (Kỹ Thuật Phần Mềm )
                           
                         </span>
                       </li>
                       <li>
                         <span>
-                          <label>Mail:</label>{" "}
+                          <label>Mail:</label>{" "} 
                           <a href="dothedung131@gmail.com">
-                            dothedung131@gmail.com
+                          dothedung131@gmail.com
                           </a>
                         </span>
                       </li>

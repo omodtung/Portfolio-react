@@ -20,7 +20,7 @@ const Contact = () => {
                     <li>
                       <p>
                         <label>Address:</label>
-                        <span>123 Qwerty Avenue NYC, USA</span>
+                        <span>Ho Chi Minh City, Viet Nam</span>
                       </p>
                     </li>
                     <li>
@@ -28,7 +28,7 @@ const Contact = () => {
                         <label>Email:</label>
                         <span>
                           <a href="mailto:example@gmail.com">
-                            example@gmail.com
+                            dothedung131@gmail.com
                           </a>
                         </span>
                       </p>
@@ -36,10 +36,10 @@ const Contact = () => {
                     <li>
                       <p>
                         <label>Phone:</label>
-                        <span>+77 022 177 05 05</span>
+                        <span>+079 2324 232</span>
                       </p>
                     </li>
-                    <li>
+                    {/* <li>
                       <p>
                         <label>Website:</label>
                         <span>
@@ -48,7 +48,7 @@ const Contact = () => {
                           </a>
                         </span>
                       </p>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
