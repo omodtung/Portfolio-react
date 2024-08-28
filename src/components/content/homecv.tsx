@@ -42,8 +42,7 @@ return <>
                                     ]}
                                     wrapper="span"
                                     speed={50}
-                                    repeat={Infinity}
-
+                                    repeat={Infinity} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}
                                 />
                             </p>
                         </div>

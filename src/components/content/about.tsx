@@ -39,12 +39,10 @@ const About = () => {
                           1000, // wait 1s before replacing "Mice" with "Hamsters"
                           "I'm a Backend Developer",
                           1000,
-                       
                         ]}
                         wrapper="span"
                         speed={50}
-                        repeat={Infinity}
-                      />
+                        repeat={Infinity} placeholder={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}                      />
                       {/*<span className="arlo_tm_animation_text_word"></span>*/}
                     </h4>
                   </div>
