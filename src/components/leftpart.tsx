@@ -78,9 +78,7 @@ const LeftPart = (props: IProps) => {
           </div>
           <a
             className={
-              props.hideLeftPart === true
-                ? "arlo_tm_resize opened"
-                : "arlo_tm_resize"
+              props.hideLeftPart ? "arlo_tm_resize opened" : "arlo_tm_resize"
             }
             onClick={() => props.setHideLeftPart(!props.hideLeftPart)}
           >

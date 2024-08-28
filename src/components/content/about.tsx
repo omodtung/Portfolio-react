@@ -1,10 +1,11 @@
-import aboutDev from "../../assets/img/about/macos.jpg";
+import aboutDev from "../../assets/img/hero/4.jpg";
 import myCv from "../../assets/cv.pdf";
 import { TypeAnimation } from "react-type-animation";
+import logo550 from '../../assets/img/about/550x640.jpg'
 const About = () => {
   return (
     <>
-      <div className="arlo_tm_section relative" id="about">
+      <div className="arlo_tm_section relative" id="about" style={{padding:100}}>
         <div className="arlo_tm_about_wrapper_all">
           <div className="container">
             <div className="arlo_tm_title_holder">
@@ -19,11 +20,15 @@ const About = () => {
                     data-relative-input="true"
                   >
                     <div className="image layer" data-depth="0.1">
-                      <img src="img/about/550x640.jpg" alt="550x640" />
-                      <div className="inner" data-img-url={aboutDev}></div>
+                      <img src={logo550} alt="550x640" />
+                      <div className="inner" data-img-url={aboutDev}
+                      
+                      style={{backgroundImage:`url(${aboutDev})`}}
+                      
+                      ></div>
                     </div>
                     <div className="border layer" data-depth="0.2">
-                      <img src="img/about/550x640.jpg" alt="550x640" />
+                      <img src={logo550} alt="550x640" />
                       <div className="inner"></div>
                     </div>
                   </div>

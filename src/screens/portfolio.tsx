@@ -4,7 +4,7 @@ import Rightpart from "../components/rightpart.tsx";
 import { FloatButton } from "antd";
 import { useState } from "react";
 const Portfolio = () => {
-    const [hideLeftPart ,setHideLeftPart] = useState<boolean>(false);
+  const [hideLeftPart, setHideLeftPart] = useState<boolean>(false);
   return (
     <div className="arlo_tm_wrapper_all">
       <div id="arlo_tm_popup_blog">
@@ -67,21 +67,19 @@ const Portfolio = () => {
       <div className="arlo_tm_content">
         {/* <!--   LEFTPART --> */}
         <LeftPart
-
-
-hideLeftPart = {hideLeftPart}
-setHideLeftPart={setHideLeftPart}
+          hideLeftPart={hideLeftPart}
+          setHideLeftPart={setHideLeftPart}
         ></LeftPart>
         {/* <!--   /LEFTPART --> */}
 
         {/* <!--   RIGHTPART --> */}
-        <Rightpart></Rightpart>
+        <Rightpart
+          hideLeftPart={hideLeftPart}
+          setHideLeftPart={setHideLeftPart}
+        ></Rightpart>
         {/* <!--   /RIGHTPART --> */}
 
-        <FloatButton.BackTop 
-        tooltip={
-            <div> Scroll To Top</div>
-    }/>
+        <FloatButton.BackTop tooltip={<div> Scroll To Top</div>} />
       </div>
     </div>
   );
