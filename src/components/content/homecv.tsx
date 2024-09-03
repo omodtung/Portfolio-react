@@ -1,5 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import aboutDev from "../../assets/img/about/macos.jpg";
+import Avatar from "../../assets/img/hero/imageAvatar.png"
 import about from "./about.tsx";
 const Homecv = () => {
   const handleScrollToAbout = () => {
@@ -23,7 +24,8 @@ const Homecv = () => {
             <div className="content hero">
               <div className="inner_content">
                 <div className="image_wrap">
-                  <img src={aboutDev} alt="hero" />
+                  {/* <img src={aboutDev} alt="hero" /> */}
+                  <img src ={Avatar} alt ="hero"></img>
                 </div>
                 <div className="name_holder">
                   <h3>

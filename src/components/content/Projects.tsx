@@ -18,6 +18,8 @@ import { FaBootstrap } from "react-icons/fa";
 import { VscBlank } from "react-icons/vsc";
 import { FaCss3 } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
+import { AiOutlineDotNet } from "react-icons/ai";
+import { FaAngular } from "react-icons/fa";
 // import { RiNextjsFill } from "react-icons/ri";
 // import { RiNextjsLine } from "react-icons/ri";
 // ri/RiNextjsLine
@@ -156,6 +158,7 @@ const Project = () => {
         demo: ""
       },
     },
+    
    
     {
       image: [<FaReact size={50} color={"#7BEDFA"} />],
@@ -271,7 +274,131 @@ const Project = () => {
         Backend: "",
         database: ""
       },
-    }, 
+    }, {
+      image: [<FaAngular size={50} color={"#ff1100"} />],
+      title: " Chat Application FE",
+      shortDescription:
+        " Member management, Equipment, and Violation Handling using SpringBoot, Thymeleaf, MySQL",
+      detail: {
+        description: "Member management, Equipment, and Violation Handling using SpringBoot Backend, Thymeleaf is a modern server-side Java template engine, MySQL",
+
+        Backend: "Spring Boot",
+        Frontend: "Thymeleaf ,Bootstrap ",
+        database: "MySQL",
+        member: 9,
+        role: "Backend Dev ,Frontend Dev",
+        github: "https://github.com/omodtung/Platform_SpringCore.git",
+        demo: ""
+      },
+    },
+    {
+      image: [<SiSpringboot size={50} color={"#40ff00"} />],
+      title: " Chat Application BE ",
+      shortDescription:
+        " Member management, Equipment, and Violation Handling using SpringBoot, Thymeleaf, MySQL",
+      detail: {
+        description: "Member management, Equipment, and Violation Handling using SpringBoot Backend, Thymeleaf is a modern server-side Java template engine, MySQL",
+
+        Backend: "Spring Boot",
+        Frontend: "Thymeleaf ,Bootstrap ",
+        database: "MySQL",
+        member: 9,
+        role: "Backend Dev ,Frontend Dev",
+        github: "https://github.com/omodtung/Platform_SpringCore.git",
+        demo: ""
+      },
+    },
+
+    {
+      image: [<FaAngular size={50} color={"#ff1100"} />],
+      title: " Airbnb FE",
+      shortDescription:
+        " Member management, Equipment, and Violation Handling using SpringBoot, Thymeleaf, MySQL",
+      detail: {
+        description: "Member management, Equipment, and Violation Handling using SpringBoot Backend, Thymeleaf is a modern server-side Java template engine, MySQL",
+
+        Backend: "Spring Boot",
+        Frontend: "Thymeleaf ,Bootstrap ",
+        database: "MySQL",
+        member: 9,
+        role: "Backend Dev ,Frontend Dev",
+        github: "https://github.com/omodtung/Platform_SpringCore.git",
+        demo: ""
+      },
+    }
+    ,
+    {
+      image: [<SiSpringboot size={50} color={"#40ff00"} />],
+      title: " Airbnb BE",
+      shortDescription:
+        " Member management, Equipment, and Violation Handling using SpringBoot, Thymeleaf, MySQL",
+      detail: {
+        description: "Member management, Equipment, and Violation Handling using SpringBoot Backend, Thymeleaf is a modern server-side Java template engine, MySQL",
+
+        Backend: "Spring Boot",
+        Frontend: "Thymeleaf ,Bootstrap ",
+        database: "MySQL",
+        member: 9,
+        role: "Backend Dev ,Frontend Dev",
+        github: "https://github.com/omodtung/Platform_SpringCore.git",
+        demo: ""
+      },
+    },
+
+     {
+      image: [<SiSpringboot size={50} color={"#40ff00"} />],
+      title: " Member management",
+      shortDescription:
+        " Member management, Equipment, and Violation Handling using SpringBoot, Thymeleaf, MySQL",
+      detail: {
+        description: "Member management, Equipment, and Violation Handling using SpringBoot Backend, Thymeleaf is a modern server-side Java template engine, MySQL",
+
+        Backend: "Spring Boot",
+        Frontend: "Thymeleaf ,Bootstrap ",
+        database: "MySQL",
+        member: 9,
+        role: "Backend Dev ,Frontend Dev",
+        github: "https://github.com/omodtung/Platform_SpringCore.git",
+        demo: ""
+      },
+      
+    },
+    {
+      image: [<FaAngular size={50} color={"#ff1100"} />],
+      title: " Blog App FE",
+      shortDescription:
+        " Member management, Equipment, and Violation Handling using SpringBoot, Thymeleaf, MySQL",
+      detail: {
+        description: "Member management, Equipment, and Violation Handling using SpringBoot Backend, Thymeleaf is a modern server-side Java template engine, MySQL",
+
+        Backend: "Spring Boot",
+        Frontend: "Thymeleaf ,Bootstrap ",
+        database: "MySQL",
+        member: 9,
+        role: "Backend Dev ,Frontend Dev",
+        github: "https://github.com/omodtung/Platform_SpringCore.git",
+        demo: ""
+      },
+    },
+    {
+      image: [<FaReact size={50} color={"#7BEDFA"} />],
+      title: " ecommerce FE",
+      shortDescription:
+        " Member management, Equipment, and Violation Handling using SpringBoot, Thymeleaf, MySQL",
+      detail: {
+        description: "Member management, Equipment, and Violation Handling using SpringBoot Backend, Thymeleaf is a modern server-side Java template engine, MySQL",
+
+        Backend: "Spring Boot",
+        Frontend: "Thymeleaf ,Bootstrap ",
+        database: "MySQL",
+        member: 9,
+        role: "Backend Dev ,Frontend Dev",
+        github: "https://github.com/omodtung/Platform_SpringCore.git",
+        demo: ""
+      },
+    }
+
+
    
     
     

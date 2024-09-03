@@ -1,5 +1,5 @@
 import { valueType } from "antd/es/statistic/utils";
-import desktoplogo from "../../src/assets/img/logo/typeScript2.png";
+import desktoplogo from "../../src/assets/img/logo/desktop-logo.png";
 interface IProps {
   hideLeftPart?: boolean;
   setHideLeftPart?: (value: boolean) => void;

@@ -1,5 +1,5 @@
-import aboutDev from "../../assets/img/hero/4.jpg";
-import myCv from "../../assets/cv.pdf";
+import aboutDev from "../../assets/img/hero/aboutdevCut.jpg";
+import myCv from "../../assets/Resume.pdf";
 import { TypeAnimation } from "react-type-animation";
 import logo550 from '../../assets/img/about/550x640.jpg'
 const About = () => {
